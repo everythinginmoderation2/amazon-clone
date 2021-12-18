@@ -13,14 +13,13 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
 const promise = loadStripe(
-  process.env.Stripe
+  "pk_test_51II3ZULS0oTXkwrZviA9BmTS8sNLZaZSuCJGemvQElsObGpQrRnL6xUV2AjgWuRqmEiZ5PP5vdq7UF0DYxDyGZTl003KcvxvVh"
 );
 
 function App() {
   const [{}, dispatch] = useStateValue();
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
-      console.log("User:", authUser);
       if (authUser) {
         dispatch({
           type: "SET_USER",

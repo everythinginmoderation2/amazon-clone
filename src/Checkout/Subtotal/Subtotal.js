@@ -11,7 +11,7 @@ function Subtotal() {
     <div className="subtotal">
       <p>
         Subtotal ({basket.length} items):{" "}
-        <strong>${getBasketTotal(basket)}</strong>
+        <strong>{getBasketTotal(basket)}</strong>
       </p>
       <small className="subtotal__gift">
         <input type="checkbox" />

@@ -2,13 +2,18 @@ export const initialState = {
     basket: [],
     user: null,
   };
+
+  const formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2
+  })
   
   //Selector
   export const getBasketTotal = (basket) => 
-    basket?.reduce((amount, item) => item.price + amount, 0);
+  formatter.format(basket?.reduce((amount, item) => item.price + amount, 0));
   
   const reducer = (state, action) => {
-    console.log(action)
     switch (action.type) {
       case "ADD_TO_BASKET":
         return {
