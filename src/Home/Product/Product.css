@@ -12,15 +12,18 @@
   background-color: rgb(8, 7, 7);
   z-index: 1;
   border-radius: 2%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0 , 1), rgba(0, 0, 0, 0));
 }
 
 .product:hover {
-  border: solid;
+  border: #846a29 thick;
   border-width: 0.1rem;
   border-color:#9c7e31;
-  border-radius: 2%;
-  margin: -0.1rem;
+  padding: -0.1rem;
+  transition: 1000ms ease-in;
+  mask-image: unset;
 }
+
 
 .product > img {
   max-height: 200px;
