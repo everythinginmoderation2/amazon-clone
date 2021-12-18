@@ -1,6 +1,7 @@
 import React from 'react'
 import './Product.css'
 import { useStateValue } from '../../StateProvider'
+import { SportsRugbySharp } from '@material-ui/icons';
 
 function Product({ id, title, image, price, rating }) {
     const [{basket}, dispatch] = useStateValue();
@@ -30,7 +31,7 @@ function Product({ id, title, image, price, rating }) {
                     <strong>{price}</strong>
                 </p>
                 <div className="product__rating">
-                    {Array(rating).fill().map((i) => 'O')}
+                    {Array(rating).fill().map((i) => <i className="fas fa-star" style={{color: 'rgba(211, 139, 45, 0.6)'}}></i>)}
                 </div>
             </div>
             <img src={image} alt="" />

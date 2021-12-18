@@ -34,8 +34,19 @@
 .product__info {
   height: 100px;
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product__info > p {
+  width: fit-content;
+  height: 1.5rem;
+  overflow-y: hidden;
+  word-wrap: normal;
 }
 
 .product__rating {
   display: flex;
 }
+

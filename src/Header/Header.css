@@ -10,9 +10,12 @@
 
 .header__logo {
     width: 100px;
-    object-fit: contain;
+    object-fit: cover;
     margin: 0 20px;
-    margin-top: 18px;
+    margin-top: 0.5rem;
+    background-image: url(logo.png);
+    background-size: 6rem;
+    background-position: center;
 }
 
 .header__search {

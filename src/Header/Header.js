@@ -17,11 +17,9 @@ const Header = () => {
   return (
     <div className="header">
       <Link to="/">
-        <img
-          className="header__logo"
-          src=""
-          alt="amazon logo"
-        />
+        <div className="header__logo">
+        <img src='' alt=""/>
+        </div>
       </Link>
       <div className="header__search">
         <input className="header__searchInput" type="text" />
