@@ -1,7 +1,6 @@
 import React from 'react'
 import './Product.css'
 import { useStateValue } from '../../StateProvider'
-import { SportsRugbySharp } from '@material-ui/icons';
 
 function Product({ id, title, image, price, rating }) {
     const [{basket}, dispatch] = useStateValue();

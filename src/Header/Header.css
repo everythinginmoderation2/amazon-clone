@@ -1,5 +1,5 @@
 .header {
-    height: 60px;
+    height: 4rem;
     display: flex;
     align-items: center;
     background-color: black;
@@ -10,13 +10,17 @@
 
 .header__logo {
     width: 100px;
+    min-height: 54px;
+    max-height: auto;
     object-fit: cover;
     margin: 0 20px;
     margin-top: 0.5rem;
     background-image: url(logo.png);
-    background-size: 6rem;
+    background-size: 140px;
     background-position: center;
+    opacity: 70%;
 }
+
 
 .header__search {
     display: flex;
