@@ -16,41 +16,41 @@ function Home() {
         <div className="home__row">
           <Product
             id={`${Math.random()*100000}`}
-            title="The Lean Start Up"
+            title="Table Monkey"
             price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            image="https://www.animalsstatue.com/wp-content/uploads/2021/01/28.Monkey-art-sculpture-of-coffee-table-1.png"
             rating={5}
           />
           <Product
             id={`${Math.random()*100000}`}
-            title="Samsung LC4RG9XDFAFA 49' Curved LED Gaming"
-            price={199.99}
-            rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            title="Yogi Monkey"
+            price={29.99}
+            rating={5}
+            image="https://static.athome.com/images/w_800,h_800,c_pad,f_auto,fl_lossy,q_auto/v1629487833/p/124346932/gold-yogi-monkey-6.jpg"
           />
         </div>
         <div className="home__row">
           <Product
             id={`${Math.random()*100000}`}
-            title="The Chicken and the Hen"
+            title="Hear No Monkey"
             price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            image="https://m.media-amazon.com/images/I/81W6jPuLoCL._AC_SX569_.jpg"
             rating={5}
           />
           <Product
             key={`${Math.random()*100000}`}
             id={`${Math.random()*100000}`}
-            title="Samsung LC4RG9XDFAFA 59' Curved LED Gaming"
-            price={399.99}
+            title="See No Monkey"
+            price={39.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            image="https://m.media-amazon.com/images/I/81VUJ7Fr72L._AC_SX569_.jpg"
           />
           <Product
           key={`${Math.random()*100000}`}
             id={`${Math.random()*100000}`}
-            title="MOOOOO WOP"
-            price={4.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            title="Speak No Monkey"
+            price={29.99}
+            image="https://m.media-amazon.com/images/I/81U2qPIrOXL._AC_SX569_.jpg"
             rating={5}
           />
         </div>
@@ -58,9 +58,9 @@ function Home() {
           <Product
           key={`${Math.random()*100000}`}
             id={`${Math.random()*100000}`}
-            title="The"
-            price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            title="Cheeky Monkeys"
+            price={39.99}
+            image="https://m.media-amazon.com/images/I/A110U908zdL._AC_SX569_.jpg"
             rating={5}
           />
         </div>
