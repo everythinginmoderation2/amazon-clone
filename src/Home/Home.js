@@ -6,23 +6,19 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container">
-      <div className="gradient">
-        <img
-          className="home__image"
-          src=""
-          alt="crimson red"
-        />
-        </div>
+        <div className="gradient"/>
         <div className="home__row">
           <Product
-            id={`${Math.random()*100000}`}
+            key={`euarw8w`}
+            id={`${Math.random() * 100000}`}
             title="Table Monkey"
             price={29.99}
             image="https://www.animalsstatue.com/wp-content/uploads/2021/01/28.Monkey-art-sculpture-of-coffee-table-1.png"
             rating={5}
           />
           <Product
-            id={`${Math.random()*100000}`}
+            key={`ekarz8w`}
+            id={`${Math.random() * 100000}`}
             title="Yogi Monkey"
             price={29.99}
             rating={5}
@@ -31,23 +27,24 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id={`${Math.random()*100000}`}
+            key={`ekamw8w`}
+            id={`${Math.random() * 100000}`}
             title="Hear No Monkey"
             price={29.99}
             image="https://m.media-amazon.com/images/I/81W6jPuLoCL._AC_SX569_.jpg"
             rating={5}
           />
           <Product
-            key={`${Math.random()*100000}`}
-            id={`${Math.random()*100000}`}
+            key={`ekarp8w`}
+            id={`${Math.random() * 100000}`}
             title="See No Monkey"
             price={39.99}
             rating={3}
             image="https://m.media-amazon.com/images/I/81VUJ7Fr72L._AC_SX569_.jpg"
           />
           <Product
-          key={`${Math.random()*100000}`}
-            id={`${Math.random()*100000}`}
+            key={`ekarw8w`}
+            id={`${Math.random() * 100000}`}
             title="Speak No Monkey"
             price={29.99}
             image="https://m.media-amazon.com/images/I/81U2qPIrOXL._AC_SX569_.jpg"
@@ -56,8 +53,8 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-          key={`${Math.random()*100000}`}
-            id={`${Math.random()*100000}`}
+            key={`ekare8w`}
+            id={`${Math.random() * 100000}`}
             title="Cheeky Monkeys"
             price={39.99}
             image="https://m.media-amazon.com/images/I/A110U908zdL._AC_SX569_.jpg"

@@ -5,8 +5,3 @@ const instance = axios.create({
 })
 
 export default instance;
-
-
-// https://us-central1-clone-15400.cloudfunctions.net/api
-
-// http://localhost:5001/clone-15400/us-central1/api
